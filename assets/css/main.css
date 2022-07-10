@@ -1989,9 +1989,17 @@ input, select, textarea {
 			}
 
 /* Form */
+/* 
+	.contact {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	} */
 
 	form {
-		margin: 0 0 2em 0;
+		margin: 2em 2em 2em 2em;
+		max-width: 100%;
 	}
 
 	label {
@@ -2020,6 +2028,7 @@ input, select, textarea {
 		padding: 0 1em;
 		text-decoration: none;
 		width: 100%;
+		margin: 1em;
 	}
 
 		input[type="text"]:invalid,

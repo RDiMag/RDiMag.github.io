@@ -1989,17 +1989,14 @@ input, select, textarea {
 			}
 
 /* Form */
-/* 
+ 
 	.contact {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	} */
+		width: 60%;
+	} 
 
 	form {
 		margin: 2em 2em 2em 2em;
-		max-width: 100%;
+		/* max-width: 100%; */
 	}
 
 	label {
@@ -3148,6 +3145,8 @@ input, select, textarea {
 		.wrapper.style2 {
 			background-color: #fbfbfb;
 			color: #999999;
+			display: flex;
+		  justify-content: center;
 		}
 
 			.wrapper.style2 input[type="submit"],

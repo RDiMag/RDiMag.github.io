@@ -1932,6 +1932,7 @@ input, select, textarea {
 		button,
 		.button {
 			padding: 0;
+			width: 5em;
 		}
 
 	}
@@ -1991,12 +1992,11 @@ input, select, textarea {
 /* Form */
  
 	.contact {
-		width: 60%;
+		width: 80vw;
 	} 
 
 	form {
 		margin: 2em 2em 2em 2em;
-		/* max-width: 100%; */
 	}
 
 	label {
@@ -2725,14 +2725,6 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		header.major:after {
-			content: '';
-			border-bottom: solid 2px #e6e6e6;
-			display: block;
-			width: 4em;
-			margin: 2em auto 0 auto;
-		}
-
 		@media screen and (max-width: 736px) {
 
 			header.major {
@@ -3253,7 +3245,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style2 ::-webkit-input-placeholder {
-				color: #e0e0e0 !important;
+				color: #ada8a8 !important;
 			}
 
 			.wrapper.style2 :-moz-placeholder {

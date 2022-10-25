@@ -50,6 +50,10 @@ table {
 	border-spacing: 0;
 }
 
+div .content{
+	padding-bottom: 2em;
+}
+
 body {
 	-webkit-text-size-adjust: none;
 }
@@ -1852,6 +1856,7 @@ input, select, textarea {
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+		margin: 1em;
 	}
 
 		input[type="submit"].icon,
@@ -1999,7 +2004,8 @@ input, select, textarea {
 		display: block;
 		font-size: 0.9em;
 		font-weight: bold;
-		margin: 0 0 1em 0;
+		margin: 1em 0 1em 0;
+		text-align: left;
 	}
 
 	input[type="text"],
@@ -2021,7 +2027,6 @@ input, select, textarea {
 		padding: 0 1em;
 		text-decoration: none;
 		width: 100%;
-		margin: 1em;
 	}
 
 		input[type="text"]:invalid,
@@ -3212,6 +3217,7 @@ input, select, textarea {
 				color: inherit;
 				background-color: rgba(144, 144, 144, 0.075);
 				border-color: #e6e6e6;
+
 			}
 
 				.wrapper.style2 input[type="text"]:focus,

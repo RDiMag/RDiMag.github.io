@@ -73,10 +73,6 @@ input, select, textarea {
 
 /* Basic */
 
-	@-ms-viewport {
-		width: device-width;
-	}
-
 	body {
 		-ms-overflow-style: scrollbar;
 	}
@@ -2230,6 +2226,17 @@ input, select, textarea {
 	.formerize-placeholder {
 		color: #e0e0e0 !important;
 	}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
 
 /* Icon */
 
